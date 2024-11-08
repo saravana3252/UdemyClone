@@ -311,7 +311,58 @@ text-decoration:none;
 }
 
 
+
+
+.banner{
+    position: relative;
+}
+
+
+
+.banner__animation{
+    position: absolute;
+    width: 40%;
+    height: 200px;
+    top:40px;
+    left: 80px;
+    background-color: white;
+    border: 1px solid black;
+    animation-name: bannerAnimation;
+    animation-duration: 2s;
+    opacity: 0;
+    padding: 20px;
+}
+
+@keyframes bannerAnimation{
+    0%{
+        opacity: 0;
+        transform: scale(1);
+
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+
+
  @media (max-width:791px){
+
+
+
+      .banner__animation{
+        position: absolute;
+        width: 80%;
+        height: 200px;
+        top:20px;
+        left: 50px;
+        
+    }
+
+    .banner img{
+        height: 250px;
+    }
 
         .navbar-collapse{
             /* background-color: blue;  */
@@ -492,5 +543,16 @@ text-decoration:none;
          font-weight: bold;
          margin-top: 5px !important;
          
+        }
+    }
+
+
+@media (max-width:480px){
+        .banner__animation{
+            width: 80%;
+           top: 20px;
+           left: 35px;
+            height: auto;
+    
         }
     }
