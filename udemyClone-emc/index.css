@@ -110,7 +110,7 @@ color: black !important;
 .navbar2{
     width: 100%;
     height: auto;
-    padding: 10px;
+    padding-top: 15px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     display: flex;
@@ -126,7 +126,7 @@ color: black !important;
     background-color: rgb(110, 110, 255);
     color: white;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
    
 
@@ -329,7 +329,7 @@ text-decoration:none;
     border: 1px solid black;
     animation-name: bannerAnimation;
     animation-duration: 2s;
-    opacity: 0;
+    opacity: 1;
     padding: 20px;
 }
 
