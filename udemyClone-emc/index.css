@@ -51,14 +51,15 @@
 .nav-item{
     /* background-color: brown; */
     width: 25%;   
+  
     
 }
-.nav-item a{
-    /* background-color: blueviolet; */
+/* .nav-item a{
+    background-color: blueviolet;
     width: 92%;
     cursor: pointer;
     
-}
+} */
 
 .d-flex{
     /* background-color: black; */
@@ -76,12 +77,24 @@
 
 
 .nav-link{
-    width: 70%;
+    width: 100%;
     /* background-color: lightblue; */
 text-align: center;
 color: black !important;
 
 }
+
+.mynavLink{
+    text-align: end;
+}
+
+.mynavLink1{
+    text-align: start !important;
+}
+.mynavLink2{
+    width: 95%;
+}
+
 .me-2{
 
     border: 1px solid white;
@@ -110,7 +123,7 @@ color: black !important;
 .navbar2{
     width: 100%;
     height: auto;
-    padding-top: 15px;
+    padding-top:15px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     display: flex;
@@ -128,6 +141,7 @@ color: black !important;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
    
 
 }
@@ -309,10 +323,6 @@ text-decoration:none;
 .cs-custom{
   padding: 10px;
 }
-
-
-
-
 .banner{
     position: relative;
 }
@@ -347,11 +357,13 @@ text-decoration:none;
 
 
 
+
+
  @media (max-width:791px){
 
 
 
-      .banner__animation{
+    .banner__animation{
         position: absolute;
         width: 80%;
         height: 200px;
@@ -363,7 +375,6 @@ text-decoration:none;
     .banner img{
         height: 250px;
     }
-
         .navbar-collapse{
             /* background-color: blue;  */
             
@@ -423,7 +434,9 @@ text-decoration:none;
         
         }
       
-        
+        .mynavLink1{
+            text-align: center !important;
+        }
         .nav-link-mod{
          border: 1px solid black;
          font-weight: bold;
@@ -536,6 +549,9 @@ text-decoration:none;
         color: black !important;
         
         }
+        .mynavLink1{
+            text-align: center !important;
+        }
       
         
         .nav-link-mod{
@@ -546,8 +562,7 @@ text-decoration:none;
         }
     }
 
-
-@media (max-width:480px){
+    @media (max-width:480px){
         .banner__animation{
             width: 80%;
            top: 20px;
