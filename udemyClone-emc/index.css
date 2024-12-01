@@ -570,4 +570,7 @@ text-decoration:none;
             height: auto;
     
         }
+          .mynavLink1{
+            text-align: center !important;
+        }
     }
